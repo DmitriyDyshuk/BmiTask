@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BmiTask</string>
+
+    <string name="bmi_title">BMI Details</string>
+</resources>
