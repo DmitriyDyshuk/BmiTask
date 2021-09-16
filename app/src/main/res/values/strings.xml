@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">BmiTask</string>
+    <string name="app_name">DmytroDyshuk</string>
 
     <string name="bmi_title">BMI Details</string>
+    <string name="main_screen_title">Add BMI Details</string>
+
 </resources>

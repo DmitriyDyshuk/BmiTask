@@ -1,4 +1,4 @@
-package com.heatingup.bmitask
+package com.bmiapptask.bmitask
 
 import org.junit.Test
 

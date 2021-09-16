@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975884866921",
+    "project_id": "bmitaskdmytrodyshuk",
+    "storage_bucket": "bmitaskdmytrodyshuk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975884866921:android:a64d5d85d45a180366d9f8",
+        "android_client_info": {
+          "package_name": "com.bmiapptask.dmytrodyshuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975884866921-fvmrt2puqmh6v3a789rqodajtk65kldo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAuaZW4mtDj_tmQPmg_4WopjNpwNOQAQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975884866921-fvmrt2puqmh6v3a789rqodajtk65kldo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

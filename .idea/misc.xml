@@ -3,16 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/bmi_item.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/rounded_transparent_rectangle_background.xml" value="0.3828125" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/shape_button_gradient_background.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/shape_transparent_background_with_white_stroke.xml" value="0.3828125" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/share_menu.xml" value="0.3828125" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/splash_screen_theme.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/title_gradiend_background.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/vector_arrow_back_icon.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/vector_rate_icon.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/drawable/vector_share_icon.xml" value="0.3828125" />
-        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/activity_bmi_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/item_parameter.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/item_parametr.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/layout/share_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/menu/top_app_bar.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3685185185185185" />
+        <entry key="..\:/AndroidStudioProjects/BmiTask/app/src/main/res/xml/file_paths.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
