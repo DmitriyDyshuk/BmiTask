@@ -28,7 +28,7 @@ class BmiDetailsActivity: BaseActivity() {
     override fun init() {
         super.init()
         getIntentExtra()
-        setUserName()
+        setUsername()
         calculateBmi()
         setCalculatedBmi()
         initAdb()
@@ -42,8 +42,8 @@ class BmiDetailsActivity: BaseActivity() {
         }
 
         llShare.setOnClickListener {
-            saveScreenShotToInternalStorage()
-            shareScreenShot()
+            saveScreenshotToInternalStorage()
+            shareScreenshot()
         }
     }
 
@@ -69,7 +69,7 @@ class BmiDetailsActivity: BaseActivity() {
         tvBmiAfterDat.text = subStringBmiAfterDat
     }
 
-    private fun setUserName() {
+    private fun setUsername() {
         when {
             calculatedBmi < 18.5F -> tvGreetingText.text = "Hello $userName, you are underweight"
             calculatedBmi > 25F -> tvGreetingText.text = "Hello $userName, you are overweight"
@@ -82,7 +82,7 @@ class BmiDetailsActivity: BaseActivity() {
         adView.loadAd(adRequest)
     }
 
-    private fun screenShot(view: View): Bitmap? {
+    private fun getScreenshot(view: View): Bitmap? {
         val bitmap = Bitmap.createBitmap(
             view.width,
             view.height, Bitmap.Config.ARGB_8888
@@ -92,19 +92,19 @@ class BmiDetailsActivity: BaseActivity() {
         return bitmap
     }
 
-    private fun saveScreenShotToInternalStorage() {
+    private fun saveScreenshotToInternalStorage() {
         try {
             val cachePath = File(this.cacheDir, "images")
             cachePath.mkdirs()
             val stream = FileOutputStream("$cachePath/image.png")
-            screenShot(window.decorView.rootView)?.compress(Bitmap.CompressFormat.PNG, 100, stream)
+            getScreenshot(window.decorView.rootView)?.compress(Bitmap.CompressFormat.PNG, 100, stream)
             stream.close()
         } catch (e: IOException) {
             e.printStackTrace()
         }
     }
 
-    private fun shareScreenShot() {
+    private fun shareScreenshot() {
         val imagePath = File(this.cacheDir, "images")
         val newFile = File(imagePath, "image.png")
         val contentUri = FileProvider.getUriForFile(this, "com.bmiapptask.bmitask.fileprovider", newFile)
